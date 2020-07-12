@@ -8,6 +8,8 @@
 	* src/Makevars.win (PKG_LIBS): Added as required on Windows
  	* src/Makevars: Added, empty, only contains now default C++11 setting
 
+	* README.md: Added simple README.md
+
 	* NAMESPACE: Simple default stanza from Rcpp.package.skeleton()
 	* man/RcppAsioExample-package.Rd: Idem
 
