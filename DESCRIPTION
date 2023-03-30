@@ -1,8 +1,8 @@
 Package: RcppAsioExample
 Type: Package
 Title: A Simple Example of Using 'Asio' from 'R' via 'Rcpp'
-Version: 0.0.1
-Date: 2020-07-09
+Version: 0.0.1.1
+Date: 2023-03-30
 Author: Dirk Eddelbuettel
 Maintainer: Dirk Eddelbuettel <edd@debian.org>
 Description: The 'AsioHeader' packages brings the 'Asio' library in a header-only format to R. This

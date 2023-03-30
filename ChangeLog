@@ -1,3 +1,14 @@
+2023-03-30  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Roll micro version
+
+	* src/Makevars: Removed, no longer set CXX_STD
+	* src/Makevars.win: No longer set CXX_STD
+
+	* src/httpClient.cpp: Comment-out test code which seems to upset R
+	CMD check now from a redirected URL
+	* man/httpClient.Rd: Ditto
+
 2020-07-12  Dirk Eddelbuettel  <edd@debian.org>
 
 	* DESCRIPTION: First version 0.0.1
