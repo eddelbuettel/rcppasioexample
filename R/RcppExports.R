@@ -11,7 +11,10 @@
 #' @return Nothing is returned as the function is invoked for its a side-effect of display
 #' what is retrieved.
 #' @examples
+#' \dontrun{
+#' ## now commented-out / inactive as the redirect upsets R's own checking
 #' httpClient("www.apache.org", "/robots.txt")
+#' }
 httpClient <- function(host, path) {
     invisible(.Call(`_RcppAsioExample_httpClient`, host, path))
 }

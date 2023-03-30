@@ -19,7 +19,10 @@
 //' @return Nothing is returned as the function is invoked for its a side-effect of display
 //' what is retrieved.
 //' @examples
+//' \dontrun{
+//' ## now commented-out / inactive as the redirect upsets R's own checking
 //' httpClient("www.apache.org", "/robots.txt")
+//' }
 // [[Rcpp::export]]
 void httpClient(const std::string & host, const std::string & path) {
 

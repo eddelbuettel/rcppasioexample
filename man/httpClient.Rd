@@ -21,5 +21,8 @@ example in the Asio documentation but has been adapted to be used as an example 
 here.
 }
 \examples{
+\dontrun{
+## now commented-out / inactive as the redirect upsets R's own checking
 httpClient("www.apache.org", "/robots.txt")
+}
 }
